@@ -53,9 +53,3 @@ I also used a `RelativeLayout inside another RelativeLayout` instead of one Line
 </RelativeLayout>
 
 ```
-
-<div align="center">
-
-# Image
-
- ![Screenshot](Screenshot.png) 
