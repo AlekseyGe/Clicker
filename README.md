@@ -49,3 +49,9 @@ I also used a RelativeLayout inside another RelativeLayout instead of one Linear
 </RelativeLayout>
 
 ```
+
+<div align="center">
+
+# Image
+
+ ![Screenshot](Screenshot1.png) 
