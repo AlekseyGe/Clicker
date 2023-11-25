@@ -10,6 +10,8 @@ This is already standard, the program is made on `AndroidStudio` and it is not c
 :-------:|:-------:|
 |    ✔️  |    ❌  |
 
+![Gif](gif.gif) 
+
 
 <h1 align="center">Important code moments</h1> 
 
