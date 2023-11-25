@@ -30,3 +30,22 @@ I also used `Margin` in XML design. These are indents from buttons and text
 android:layout_marginTop="20pt"
 android:layout_marginBottom="5pt"
 ```
+I also used a RelativeLayout inside another RelativeLayout instead of one LinearLayout to place the buttons horizontally
+```
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    ...
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true">
+    ...
+    </RelativeLayout>
+</RelativeLayout>
+
+```
