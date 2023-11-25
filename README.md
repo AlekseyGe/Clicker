@@ -1,3 +1,5 @@
+ Language : us | [ru](./README.ru-RU.md)
+ 
 # Clicker
 This time I made a simple `clicker`. There are 3 buttons in this program - add 1 click, 10 or 100. I finally started using Java to handle events
 
