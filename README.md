@@ -54,4 +54,4 @@ I also used a RelativeLayout inside another RelativeLayout instead of one Linear
 
 # Image
 
- ![Screenshot](Screenshot1.png) 
+ ![Screenshot](Screenshot.png) 
