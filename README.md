@@ -24,3 +24,9 @@ public void OnClick1(View v) {
 ```
 All other functions work according to the same principle
 
+I also used `Margin` in XML design. These are indents from buttons and text
+
+```
+android:layout_marginTop="20pt"
+android:layout_marginBottom="5pt"
+```
