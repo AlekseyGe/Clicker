@@ -56,6 +56,3 @@ android:layout_marginBottom="5pt"
 
 <div align="center">
 
-# Изображение
-
- ![Screenshot](Screenshot.png) 
