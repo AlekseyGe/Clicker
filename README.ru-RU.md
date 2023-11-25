@@ -1,11 +1,11 @@
 Язык : [us](./README.md) | ru
  
 # Clicker
-This time I made a simple `clicker`. There are 3 buttons in this program - add 1 click, 10 or 100. I finally started using Java to handle events
+На этот раз я сделал простой "кликер". В этой программе есть 3 кнопки - добавить 1 клик, 10 или 100. Я, наконец, начал использовать Java для обработки событий
 
- ## Compatibility
+ ## Совместимость
  
-This is already standard, the program is made on `AndroidStudio` and it is not compatible with Apple
+Это уже стандартно, программа создана на "AndroidStudio` и несовместима с Apple
 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/800px-Android_robot.svg.png_48x48.png" alt="Edge" width="45px" height="50px" /></br>Android | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1724px-Apple_logo_grey.svg.png" alt="Edge" width="45px" height="50px" /></br>Apple |
 :-------:|:-------:|
@@ -15,10 +15,10 @@ This is already standard, the program is made on `AndroidStudio` and it is not c
 ![Gif](gif.gif) 
 
 
-<h1 align="center">Important code moments</h1> 
+<h1 align="center">Важные моменты кода</h1> 
 
-This time there is `Java` in the code. In Java, I have 3 functions: OnClick 1, OnClick 2 and OnClick 3, each of these functions adds clicks, just in different amounts
-### Example
+На этот раз в коде присутствует "Java". В Java у меня есть 3 функции: OnClick 1, OnClick 2 и OnClick 3, каждая из этих функций добавляет клики, просто в разном количестве
+### Пример
 
 ```
 public void OnClick1(View v) {
@@ -26,15 +26,15 @@ public void OnClick1(View v) {
         textView.setText("Clicks: " + click);
     }
 ```
-All other functions work according to the same principle
+Все остальные функции работают по тому же принципу
 
-I also used `Margin` in XML design. These are indents from buttons and text
+Я также использовал `Margin` в XML-дизайне. Это отступы от кнопок и текста
 
 ```
 android:layout_marginTop="20pt"
 android:layout_marginBottom="5pt"
 ```
-I also used a `RelativeLayout inside another RelativeLayout` instead of one LinearLayout to place the buttons horizontally
+Я также использовал `RelativeLayout внутри другого RelativeLayout` вместо одного LinearLayout, чтобы расположить кнопки горизонтально
 ```
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,6 +56,6 @@ I also used a `RelativeLayout inside another RelativeLayout` instead of one Line
 
 <div align="center">
 
-# Image
+# Изображение
 
  ![Screenshot](Screenshot.png) 
