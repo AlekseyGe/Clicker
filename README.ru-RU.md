@@ -34,7 +34,7 @@ public void OnClick1(View v) {
 android:layout_marginTop="20pt"
 android:layout_marginBottom="5pt"
 ```
-Я также использовал `RelativeLayout внутри другого RelativeLayout` вместо одного LinearLayout, чтобы расположить кнопки горизонтально
+Помимо этого я использовал `RelativeLayout внутри другого RelativeLayout` вместо одного LinearLayout, чтобы расположить кнопки горизонтально
 ```
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
